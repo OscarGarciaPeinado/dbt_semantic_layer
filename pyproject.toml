@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dbt-semantic-layer"
+version = "0.1.0"
+description = ""
+authors = ["Oscar <oscar.garcia@damavis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+dbt-metricflow = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
